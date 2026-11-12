@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or adapt this example app, please cite it using these metadata."
+type: software
+title: "autonomous lawnmower runs media pipeline built with Pixeltable"
+abstract: "Cut robot-mower camera runs into 3-second clips, label failures and mine look-alike failure clips with CLIP, all in Pixeltable."
+authors:
+  - given-names: "Pierre"
+    family-names: "Brunelle"
+repository-code: "https://github.com/pierrebrunelle/pixeltable-lawnmower-failure-clips"
+url: "https://pierrebrunelle.github.io/awesome-pixeltable-apps/"
+license: Apache-2.0
+version: "0.1.0"
+date-released: 2026-11-12
+keywords:
+  - "pixeltable"
+  - "pixeltable-example"
+  - "python"
+  - "multimodal"
+  - "robotics"
+  - "failure-mining"
+  - "computer-vision"
+  - "media-pipeline"
+  - "ai"
+  - "data-infrastructure"

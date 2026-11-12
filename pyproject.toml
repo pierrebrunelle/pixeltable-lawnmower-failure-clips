@@ -1,0 +1,21 @@
+[project]
+name = "pixeltable-lawnmower-failure-clips"
+version = "0.1.0"
+description = "Cut robot-mower camera runs into 3-second clips, label failures and mine look-alike failure clips with CLIP, all in Pixeltable - built with Pixeltable"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Pierre Brunelle" }]
+keywords = ["pixeltable", "multimodal", "ai", "computed-columns", "data-infrastructure", "lawnmower-failure-clips"]
+dependencies = [
+    "pixeltable>=0.7.24",
+    "pillow",
+    "numpy",
+    "torch",
+    "transformers",
+]
+
+[project.urls]
+Homepage = "https://pixeltable.com"
+Documentation = "https://docs.pixeltable.com"
+Pixeltable = "https://github.com/pixeltable/pixeltable"
